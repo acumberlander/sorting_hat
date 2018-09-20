@@ -8,6 +8,28 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Jumbotron -->
+    <div class="jumbotron container card text-center">
+        <h1 class="display-4">Welcome to Hogwarts Bruh!</h1>
+        <p class="lead">We're turning up tonight, but first we gotta get you sorted to your house and shit. This program will determine what house you will join in the Hogwarts School of Witchcraft & Wizardry.</p>
+        <hr class="my-4">
+        <p>Click the button to get started!</p>
+        <p class="lead">
+          <a id ="startSort" class="btn btn-primary btn-lg" href="#" role="button">Let's start sorting</a>
+        </p>
+      </div>
+      <!-- Form -->
+    <div id="theForm" style="display:none">
+        <form class="container">
+            <div class="form-group">
+                <label for="exampleStudent">Enter Your Name</label>
+                <input type="text" class="form-control" id="exampleStudent" placeholder="Harry Potter">
+            </div>
+            <button type="submit" id="submitButton" class="btn btn-primary container ">Submit</button>
+        </form>
+    </div>
+    <!-- Student Cards -->
+    <div id="studentCards" class="d-flex flex-wrap justify-content-center"></div>
 
 <!-- JS File Link -->
 <script src="main.js"></script>
