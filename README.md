@@ -1,1 +1,5 @@
 # sorting_hat
+
+This program will sort any name given to it to a specific Hogwarts house at random. All the user has to do is click on the "start sorting" button to begin. After that the user will enter any name they would like and then click on the submit button. A card will then appear with the name the user entered along with a random house name. The user will also have the option to delete this newly created card by clicking on the red "expel" button.  And that's all there is to it!
+
+Have fun! 
